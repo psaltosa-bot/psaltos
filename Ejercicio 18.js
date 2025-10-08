@@ -1,10 +1,8 @@
-function contarImpares() {
-  let numeros = [2, 5, 7, 8, 10];
-  let contar = 0;
-  for (let i = 0; i < numeros.length; i++) {
-    if (numeros[i] % 2 != 0) {
-      contar = contar + 1;
+let numerosImpares = [2, 5, 7, 8, 11];
+let Impares = 0;
+for (let i = 0; i < numerosImpares.length; i++) {
+    if (numerosImpares[i] % 2 !== 0) {
+        Impares++;
     }
-  }
-  alert("Cantidad de impares: " + contar);
 }
+console.log("Cantidad de numeros impares: " + Impares);
